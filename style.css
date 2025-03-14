@@ -1,3 +1,5 @@
+
+/*Вот бы начать использовать flex shrink, flex-grow, flex-basis и wrap*/
 * {
     box-sizing: border-box;
     margin: 0;
@@ -18,7 +20,7 @@ body {
     display: flex;
     justify-content: center;
 }
-.block1{
+.block1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -84,4 +86,123 @@ body {
     border: none;
     margin-top: 10px;
     border-radius: 12px;
+}
+/*End of the first block
+Secondblock*/
+.block_2{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.header_2 {
+    font-size: 36px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 75px;
+}
+.photos {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 20%;
+}
+.text {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.photos img {
+    width: 200px;
+    height: 200px;
+    border: 5px solid blue;
+    border-radius: 15px;
+}
+.block2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+}
+/*End of the second block and start of the third block*/
+.block_3 {
+    width: 100%;
+    height: 50vh;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+.block3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+}
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+.author {
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 8%;
+}
+/*End of the third block and start of the second*/
+.block_4 {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block4{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    background-color: blue;
+    height: 40%;
+    border-radius: 15px;
+}
+.calling_to_action {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    margin-left: 20%;
+}
+.call {
+    font-weight: bold;
+}
+.description {
+    font-size: 20px;
+}
+.btn2 {
+    background-color: blue;
+    color:#F9FAF8;
+    font-weight: 800;
+    width: 125px;
+    height: 45%;
+    border: 4px solid white;
+    border-radius: 12px;
+    margin-left: 10%;
+}
+.block_5 {
+    height: 10vh;
+    width: 100%;
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
